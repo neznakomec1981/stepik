@@ -11,7 +11,7 @@ try:
     WebDriverWait(browser, 12).until(EC.text_to_be_present_in_element((By.ID, "price"), "$100"))
     print(100)
     button = browser.find_element(By.CSS_SELECTOR, "#book")
-    #button.click()
+    button.click()
     # Отправляем заполненную форму
 
 
